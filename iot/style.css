@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.header{
+    background-color: #232323;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid orangered;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   height: 50px;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+.titulo {
+    margin: 0;
+    float: left;
+    color: white;
+
+}
+.navbar {
+        list-style: none;
+        float: right;
+        color: white;
+        
+}
+
+.header .navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.destaque {
+    color: orangered
+}
+
+.banner {
+    text-align: center;
+    background-image: url(img/pexels-pixabay-373076.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 40px;
+    
+    
+}
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 0px;
+    color: tomato;
+}
+
+.banner h3 {
+    color: grey;
+    margin-bottom: 0;
+}
+
+.saiba-mais button {
+    border: 0;
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 65px;
+    padding: 10px 30px;
+    border-radius: 9px;
+    
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color: #232323;
+    height: 200px;
+    margin-top: 0;
+}
+
+.box img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 3px solid red;
+    overflow: auto;
+    height: 600px;
+}
+
+.box-item {
+    padding: 10px 10px;
+    float: left;
+    text-align: center;
+    margin-top: 125px;
+
+}
+
+.footer {
+    background-color: rgb(65, 60, 60);
+    text-align: center;
+    height: 100px;
+}
+.footer h4 {
+    margin: 0;
+    padding-top: 30px;
+    font-weight: 100;
+    color: black;
+}
+li a{
+color: white;
+cursor: pointer;
+transition: 500ms;
+}
+li a:hover{
+ color: orangered;
+ transition: 500ms;   
+
+}
+.background_Sobre{
+    background-image: url(fundo_sobre.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto
+    ;
+}
+.sobre{
+    /* text-align: center;
+    line-height: 30px;
+    color: black;
+    height: 450px;
+    width: 500px;
+    float: left;
+    background-color: rgb(9,103,198);
+    margin-left: 2%;
+    font-size: 30px;
+    padding-top: 2%;
+    border-radius: 20%;
+    margin-top: 15%;
+    margin-left: 25%; */
+    text-align: center;
+    background-color: rgb(30, 25, 110);
+    height: 200px;
+    width: 100%;
+    margin-top: 19.5%;
+    color: white;
+    font-size: larger;
+}
+  
+  .footer_sobre {
+    background-color: rgb(30, 25, 110);
+    text-align: center;
+    height: 75px;
+    margin-top: 250px;
+    
+}
+.footer_sobre h4  {
+    margin: 0;
+    padding-top: 30px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+.footer_sobre a{
+    color: white;
+    text-decoration: underline;
+    transition: 500ms
+}
+.footer_sobre a:hover{
+transition: 500ms;
+color: orangered;
+}
